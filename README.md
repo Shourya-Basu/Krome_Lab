@@ -1,16 +1,53 @@
-# React + Vite
+# Krome Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+### Introduction 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### Tech Stack
+
+- **React** – A declarative JavaScript library used for building interactive and dynamic user interfaces.
+
+- **Flask** – A lightweight Python web framework used to build the backend API and handle server-side logic.
+
+- **Vite** – A fast build tool and development server that improves the development workflow and enables rapid frontend development.
+
+
+---
+
+### Prerequisites
+- Node.js (Javascript Library)
+- npm
+- flask (Python library)
+
+
+
+### Quick Start
+To run the project locally, follow these steps:
+
+1. Download the project files.
+2. Run the following command:
+```bash
+    npm run dev
+```
+---
+
+### Webpage look
+
+![Page](src/assets/Screenshot%202026-03-19%20024955.png)
+
+
+![Page](src/assets/Screenshot%202026-03-19%20024859.png)
+
+![Page](src/assets/Screenshot%202026-03-19%20024915.png)
+
+

@@ -1,9 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Upload } from "lucide-react";
-
 const Edit = ({fileRef, file,  message, setMessage  ,BClick, FileChange, tempo, setTempo, pitch, setPitch, tempoOrignal, settempoOrignal }) => {
-
-
   return (
     <>
       <div className="h-[30vw]">

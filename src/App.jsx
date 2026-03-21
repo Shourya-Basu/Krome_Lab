@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import Page_2 from "./Component/Page_2";
 import Page_1 from "./Component/Page_1";
 import { Navigate, Route, Routes, useNavigation } from "react-router-dom";
-import Loading from "./Component/Loading";
+
 
 const App = () => {
   const fileRef = useRef(null);

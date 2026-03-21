@@ -3,19 +3,16 @@ import { useNavigate } from "react-router-dom";
 
 
 const Button = ({EXProcess, file, EXDownload}) => {
-
     const nav = useNavigate();
-
     const Play = () => {
     if (!file) {
-        alert("⚠️ No file uploaded!");
+        alert(" No file uploaded!");
     }else {
         EXProcess()
         nav("/MusicPlay"); 
   }
     return;
-     
-        
+
   };
   return (
     <>
@@ -37,5 +34,4 @@ const Button = ({EXProcess, file, EXDownload}) => {
     </>
   )
 }
-
 export default Button
