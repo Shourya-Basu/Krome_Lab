@@ -1,4 +1,6 @@
 {
+  
+"homepage": "https://Shourya-Basu.github.io/Krome_Lab",
   "name": "exp-9-music",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +9,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
